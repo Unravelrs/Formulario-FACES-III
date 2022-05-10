@@ -34,6 +34,7 @@ list-style-type: none;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+text-decoration: none;
 
  
 }
@@ -45,11 +46,7 @@ margin-top: 10px;
 
 }
 
-.header2 a {
 
-text-decoration: none;
-
-} 
 
 .datospaciente {
 
