@@ -308,4 +308,6 @@ block content
       |  Casi siempre o siempre
     br
     br
-    input#Enviar-formulario(type="button", name="Enviar pedido", value="Enviado", onclick="alert(\'Datos enviados correctamente\');")
+    input#Enviar-formulario(type="button", name="Enviar pedido", value="Enviado", onclick="processData()")
+
+    script(src="/javascripts/sendData.js")
