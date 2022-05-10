@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+
+.header1 {
+    
+    background-color: #0C231E;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header2 { 
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+background-color: #13322B; 
+color: aliceblue;
+display: grid;
+grid-template-columns: 30% 70%;
+align-items: center;
+
+
+}
+
+.header2 .headernav  {
+
+grid-column: 2/3;
+font-size: medium;
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+ 
+}
+
+.formulario {
+
+margin-left: 10%;
+margin-top: 10px;
+
+}
+
+
+
+.datospaciente {
+
+    margin-top: 5%;
+    height: auto;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+
+.datospaciente input, .datospaciente select {
+
+    width: 20rem;
+    height: 30px;
+    font-size: 14px;
+    line-height: inherit;
+    color: #555555;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
