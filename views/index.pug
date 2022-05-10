@@ -14,29 +14,29 @@ block content
       li Contacto ciudadano
   .datospaciente
     label(for="nombre") Nombre:
-    input#nombre.nombre(name="nombre", required, placeholder="Ingresa tu nombre(s)", maxlength="50", type="text")
+    input#nombre.nombre(name="nombre", required, placeholder="Ingresa tu nombre(s)", maxlength="25", type="text")
     label(for="primerapellido") Primer apellido:
-    input#primerapellido.primerapellido(name="primerapellido", required, placeholder="Ingresa tu primer apellido", maxlength="50", type="text")
+    input#primerapellido.primerapellido(name="primerapellido", required, placeholder="Ingresa tu primer apellido", maxlength="15", type="text")
     label(for="segundoapellido") Segundo apellido:
-    input#segundoapellido.segundoapellido(name="segundoapellido", placeholder="Ingresa tu segundo apellido", maxlength="50", type="text")
+    input#segundoapellido.segundoapellido(name="segundoapellido", placeholder="Ingresa tu segundo apellido", maxlength="15", type="text")
     label(for="NSS") Número de seguro social:
-    input#NSS.NSS(name="NSS", placeholder="Ingresa tu Número de seguro social", maxlength="50", type="text")
+    input#NSS.NSS(name="NSS", placeholder="Ingresa tu Número de seguro social", maxlength="11", type="text")
     label(for="edad") Ocupación:
-    select#edad.campos.form-control.form-selected.select.small(name="edad", required)
+    select#edad.edad(name="edad", required)
       option(value, disabled, selected) Grupo de edad
-      option(value="1") 18-24
-      option(value="2") 25-30
-      option(value="3") 31-35
-      option(value="4") 36-40
-      option(value="5") 41-45
-      option(value="5") 46-50
+      option(value="edad1") 18-24
+      option(value="edad2") 25-30
+      option(value="edad3") 31-35
+      option(value="edad4") 36-40
+      option(value="edad5") 41-45
+      option(value="edad6") 46-50
     label(for="sexo") Sexo:
-    select#sexo.campos.form-control.form-selected.select.small(name="sexo", required)
+    select#sexo.sexo(name="sexo", required)
       option(value, disabled, selected) Selecciona el sexo
       option(value="M") Mujer
       option(value="H") Hombre
     label(for="ocupación") Ocupación:
-    select#ocupacion.campos.form-control.form-selected.select.small(name="ocupacion", required)
+    select#ocupacion.ocupacion(name="ocupacion", required)
       option(value, disabled, selected) Ocupación
       option(value="E") Estudiante
       option(value="A") Empledado
