@@ -1,6 +1,6 @@
 function processData() {
-    alert("Holi")
-
+    var nombre=$("#nombre").val();
+    alert(nombre);
     $.ajax({
         method: "POST",
         url: "/sendData",
