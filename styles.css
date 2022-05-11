@@ -47,11 +47,7 @@ margin-top: 10px;
 
 }
 
-.headernav ul {
 
-text-decoration: none;
-
-} 
 
 
 .datospaciente {
@@ -87,4 +83,6 @@ text-decoration: none;
     font-size: 18px;
     border-radius: 3px;
     padding: 10px 25px;
+
+    
 }
