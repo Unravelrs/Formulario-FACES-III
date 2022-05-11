@@ -78,3 +78,13 @@ text-decoration: none;
     border-radius: 4px;
     padding: 6px 12px;
 }
+
+.btnenv {
+
+    border: 2px solid #9D2449;
+    color: #9D2449;
+    background-color: #FFF;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 10px 25px;
+}
