@@ -38,6 +38,7 @@ padding-left: 12%;
 padding-right: 12%;
 height: 55px;
 width: 100%;
+position: fixed;
 
 }
 
@@ -56,6 +57,7 @@ grid-template-columns: 38% 62%;
 align-items: center;
 text-decoration: none;
 font-size: 16px;
+position: fixed;
 
 
 }
