@@ -28,7 +28,7 @@
     var preg20=$('input[name="preg20"]:checked').val();
     var allpreg=(preg1 + preg2 + preg3 + preg4 + preg5 + preg6 +preg7 + preg8 + preg9 + preg10 + preg11 + preg12 + preg13 + preg14 + preg15 + preg16 + preg17 + preg18 + preg19 + preg20);
 
-    console.log(allpreg);
+    
     
     alert(nombre + " " + primerapellido + " " + segundoapellido + " " + NSS + " " + edad + " " + sexo + " " + ocupacion + " " + allpreg);
     $.ajax({
