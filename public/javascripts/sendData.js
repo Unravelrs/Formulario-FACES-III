@@ -49,6 +49,9 @@ function processData() {
         parseInt(preg15) +
         parseInt(preg17) +
         parseInt(preg19);
+    var resparesclasif="";
+    var resnonesclasif="";
+    
 
     alert(
         nombre +
@@ -69,6 +72,35 @@ function processData() {
             " " +
             resnones
     );
+    
+    if (respares <= 19)
+    resparesclasif = "Familia rígida"
+
+    else if (respares <= 24)
+     resparesclasif = "Familia estructurada"
+
+     else if (respares <= 28)
+     resparesclasif = "Familia flexible"
+
+     else if (respares <= 50)
+     resparesclasif = "Familia caótica"
+
+
+ if (resnones <= 34)
+    resnonesclasif = "Familia no relacionada"
+
+    else if (resnones <= 40)
+     resnonesclasif = "Familia semirelacionada"
+
+     else if (resnones <= 45)
+     resnonesclasif = "Familia relacionada"
+
+     else if (resnones <= 50)
+     resnonesclasif = "Familia aglutinada"
+
+ 
+ 
+ alert(nombre + " " + primerapellido + " " + segundoapellido + " " + NSS + " " + edad + " " + sexo + " " + ocupacion + " " + respares + " " + resnones + " " + resparesclasif + " " + resnonesclasif);
 
     $.ajax({
         method: "POST",
