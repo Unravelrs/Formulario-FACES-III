@@ -26,11 +26,13 @@
     var preg18=$('input[name="preg18"]:checked').val();
     var preg19=$('input[name="preg19"]:checked').val();
     var preg20=$('input[name="preg20"]:checked').val();
-    var allpreg=(preg1 + preg2 + preg3 + preg4 + preg5 + preg6 +preg7 + preg8 + preg9 + preg10 + preg11 + preg12 + preg13 + preg14 + preg15 + preg16 + preg17 + preg18 + preg19 + preg20);
 
+   
+    var respares = ((parseInt(preg2)) + parseInt(preg4) + parseInt(preg6) + parseInt(preg8) + parseInt (preg10) + parseInt (preg12) + parseInt(preg14) + parseInt(preg16) + parseInt(preg18) + parseInt(preg20));
+    var resnones = ((parseInt(preg1)) + parseInt(preg3) + parseInt(preg5) + parseInt(preg7) + parseInt(preg9) + parseInt(preg11) + parseInt(preg13) + parseInt(preg15) + parseInt(preg17) + parseInt(preg19));
     
     
-    alert(nombre + " " + primerapellido + " " + segundoapellido + " " + NSS + " " + edad + " " + sexo + " " + ocupacion + " " + allpreg);
+    alert(nombre + " " + primerapellido + " " + segundoapellido + " " + NSS + " " + edad + " " + sexo + " " + ocupacion + " " + respares + " " + resnones);
     $.ajax({
         method: "POST",
         url: "/sendData",
