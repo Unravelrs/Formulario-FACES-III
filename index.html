@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de funcionalidad familiar FACES III - Protocolo investigción César Rios IMSS</title>
+    <LINK REL=StyleSheet HREF="public/stylesheets/styles.css" TYPE="text/css" MEDIA=screen>
+      <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+    
+<!-- Header bicolor (se removieron elementos oficiales de imss como links para evitar problemas) -->
+
+<div class="header1"> </div>
+<div class="header2"> 
+</div>
+
+
+<!-- Títulos y subtitulos -->
+
+<div class="titulo"><h1>Cuestionario FACES III para funcionalidad familiar</h1><h2> - Protocolo de investigación:</h2><h2>Estructura y grado de funcionalidad familiar en pacientes con síndrome de intestino irritable en UMF No 1 </h2>
+<h3>Unidad de Medicina Familiar No 1 - Dr. César Daniel Rios Soto</h3> </div>
+
+
+<!-- Datos sociodemográficos -->
+
+<div class="datospaciente">
+  <p>Favor de ingresar sus datos personales:</p>
+
+<label for="nombre">Nombre:</label>
+<input id="nombre" name="nombre" required="" placeholder="Ingresa tu nombre(s)" maxlength="25" class="nombre" type="text">
+<label for="primerapellido">Primer apellido:</label>
+<input id="primerapellido" name="primerapellido" required="" placeholder="Ingresa tu primer apellido" maxlength="15" class="primerapellido" type="text"> 
+<label for="segundoapellido">Segundo apellido:</label>
+<input id="segundoapellido" name="segundoapellido" placeholder="Ingresa tu segundo apellido" maxlength="15" class="segundoapellido" type="text"> 
+<label for="NSS">Número de seguro social:</label>
+<input id="NSS" name="NSS" placeholder="Ingresa tu Número de seguro social" maxlength="11" class="NSS" type="text"> 
+
+
+<label for="edad">Ocupación:</label>
+<select id="edad" name="edad" class="edad" required="true">
+    <option value="" disabled="" selected="">Grupo de edad</option>
+      <option value="edad1">18-24</option>
+      <option value="edad2">25-30</option>
+      <option value="edad3">31-35</option>
+      <option value="edad4">36-40</option>
+      <option value="edad5">41-45</option>
+      <option value="edad6">46-50</option>
+  </select> 
+
+<label for="sexo">Sexo:</label>
+<select id="sexo" name="sexo" class="sexo" required="true">
+    <option value="" disabled="" selected="">Selecciona el sexo</option>
+      <option value="M">Mujer</option>
+      <option value="H">Hombre</option>
+  </select> 
+
+  <label for="ocupación">Ocupación:</label>
+  <select id="ocupacion" name="ocupacion" class="ocupacion" required="true">
+    <option value="" disabled="" selected="">Ocupación</option>
+      <option value="E">Estudiante</option>
+      <option value="A">Empledado</option>
+      <option value="C">Autoempleo</option>
+      <option value="D">Sin empleo</option>
+  </select>
+
+</div>
+
+<br>
+<br>
+
+<!-- Formulario y botón de envi -->
+
+<div class="formulario">
+
+<p>Para la realización del cuestionario debe seleccionar la opción que más se acerque a su situación familiar. </p> <br>
+
+<p>1. Los miembros de nuestra familia se dan apoyo entre sí.</p>
+
+<p><input id="preg1" type="radio" name="preg1" value="1"> Casi nunca o nunca <input id="preg1" type="radio" name="preg1" value="2"> de vez en cuando <input id="preg1" type="radio" name="preg1" value="3"> A veces <input  id="preg1" type="radio" name="preg1" value="4"> Muchas veces <input  id="preg1" type="radio" name="preg1" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 2. En nuestra familia se toman en cuenta las sugerencias de los hijos para resolver los problemas. </p>
+
+<p><input type="radio" name="preg2" value="1"> Casi nunca o nunca <input type="radio" name="preg2" value="2"> de vez en cuando <input type="radio" name="preg2" value="3"> A veces <input type="radio" name="preg2" value="4"> Muchas veces <input type="radio" name="preg2" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 3. Aceptamos las amistades de los demás miembros de la familia.</p>
+
+<p><input type="radio" name="preg3" value="1"> Casi nunca o nunca <input type="radio" name="preg3" value="2"> de vez en cuando <input type="radio" name="preg3" value="3"> A veces <input type="radio" name="preg3" value="4"> Muchas veces <input type="radio" name="preg3" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 4. Los hijos pueden opinar en cuanto a su disciplina. </p>
+
+<p><input type="radio" name="preg4" value="1"> Casi nunca o nunca <input type="radio" name="preg4" value="2"> de vez en cuando <input type="radio" name="preg4" value="3"> A veces <input type="radio" name="preg4" value="4"> Muchas veces <input type="radio" name="preg4" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 5. Nos gusta convivir solamente con los familiares más cercanos. </p>
+
+<p><input type="radio" name="preg5" value="1"> Casi nunca o nunca <input type="radio" name="preg5" value="2"> de vez en cuando <input type="radio" name="preg5" value="3"> A veces <input type="radio" name="preg5" value="4"> Muchas veces <input type="radio" name="preg5" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 6. Cualquier miembro de la familia puede tomar la autoridad. </p>
+
+<p><input type="radio" name="preg6" value="1"> Casi nunca o nunca <input type="radio" name="preg6" value="2"> de vez en cuando <input type="radio" name="preg6" value="3"> A veces <input type="radio" name="preg6" value="4"> Muchas veces <input type="radio" name="preg6" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 7. Nos sentimos más unidos entre nosotros que con otras personas que no son de nuestra familia.</p>
+
+<p><input type="radio" name="preg7" value="1"> Casi nunca o nunca <input type="radio" name="preg7" value="2"> de vez en cuando <input type="radio" name="preg7" value="3"> A veces <input type="radio" name="preg7" value="4"> Muchas veces <input type="radio" name="preg7" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 8. Nuestra familia cambia el modo de hacer las cosas.</p>
+
+<p><input type="radio" name="preg8" value="1"> Casi nunca o nunca <input type="radio" name="preg8" value="2"> de vez en cuando <input type="radio" name="preg8" value="3"> A veces <input type="radio" name="preg8" value="4"> Muchas veces <input type="radio" name="preg8" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 9. Nos gusta pasar el tiempo libre en familia.</p>
+
+<p><input type="radio" name="preg9" value="1"> Casi nunca o nunca <input type="radio" name="preg9" value="2"> de vez en cuando <input type="radio" name="preg9" value="3"> A veces <input type="radio" name="preg9" value="4"> Muchas veces <input type="radio" name="preg9" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 10. Padres e hijos se ponen de acuerdo en relación a los castigos.</p>
+
+<p><input type="radio" name="preg10" value="1"> Casi nunca o nunca <input type="radio" name="preg10" value="2"> de vez en cuando <input type="radio" name="preg10" value="3"> A veces <input type="radio" name="preg10" value="4"> Muchas veces <input type="radio" name="preg10" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 11. Nos sentimos muy unidos.</p>
+
+<p><input type="radio" name="preg11" value="1"> Casi nunca o nunca <input type="radio" name="preg11" value="2"> de vez en cuando <input type="radio" name="preg11" value="3"> A veces <input type="radio" name="preg11" value="4"> Muchas veces <input type="radio" name="preg11" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 12. Cuando se toma una decisión importante toda la familia está presente. </p>
+
+<p><input type="radio" name="preg12" value="1"> Casi nunca o nunca <input type="radio" name="preg12" value="2"> de vez en cuando <input type="radio" name="preg12" value="3"> A veces <input type="radio" name="preg12" value="4"> Muchas veces <input type="radio" name="preg12" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 13. Cuando nuestra familia se reúne para hacer algo no falta nadie. </p>
+
+<p><input type="radio" name="preg13" value="1"> Casi nunca o nunca <input type="radio" name="preg13" value="2"> de vez en cuando <input type="radio" name="preg13" value="3"> A veces <input type="radio" name="preg13" value="4"> Muchas veces <input type="radio" name="preg13" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 14. En nuestra familia las reglas cambian. </p>
+
+<p><input type="radio" name="preg14" value="1"> Casi nunca o nunca <input type="radio" name="preg14" value="2"> de vez en cuando <input type="radio" name="preg14" value="3"> A veces <input type="radio" name="preg14" value="4"> Muchas veces <input type="radio" name="preg14" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 15. Con facilidad podemos planear actividades en la familia.</p>
+
+<p><input type="radio" name="preg15" value="1"> Casi nunca o nunca <input type="radio" name="preg15" value="2"> de vez en cuando <input type="radio" name="preg15" value="3"> A veces <input type="radio" name="preg15" value="4"> Muchas veces <input type="radio" name="preg15" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 16. Intercambiamos los quehaceres del hogar entre nosotros.</p>
+
+<p><input type="radio" name="preg16" value="1"> Casi nunca o nunca <input type="radio" name="preg16" value="2"> de vez en cuando <input type="radio" name="preg16" value="3"> A veces <input type="radio" name="preg16" value="4"> Muchas veces <input type="radio" name="preg16" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 17. Consultamos unos con otros para tomar decisiones. </p>
+
+<p><input type="radio" name="preg17" value="1"> Casi nunca o nunca <input type="radio" name="preg17" value="2"> de vez en cuando <input type="radio" name="preg17" value="3"> A veces <input type="radio" name="preg17" value="4"> Muchas veces <input type="radio" name="preg17" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 18. En nuestra familia es difícil identificar quien tiene la autoridad. </p>
+
+<p><input type="radio" name="preg18" value="1"> Casi nunca o nunca <input type="radio" name="preg18" value="2"> de vez en cuando <input type="radio" name="preg18" value="3"> A veces <input type="radio" name="preg18" value="4"> Muchas veces <input type="radio" name="preg18" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 19. La unión familiar es muy importante. </p>
+
+<p><input type="radio" name="preg19" value="1"> Casi nunca o nunca <input type="radio" name="preg19" value="2"> de vez en cuando <input type="radio" name="preg19" value="3"> A veces <input type="radio" name="preg19" value="4"> Muchas veces <input type="radio" name="preg19" value="5"> Casi siempre o siempre</p> <br>
+
+<p> 20. Es difícil decir quien hace las labores del hogar. </p>
+
+<p><input type="radio" name="preg20" value="1"> Casi nunca o nunca <input type="radio" name="preg20" value="2"> de vez en cuando <input type="radio" name="preg20" value="3"> A veces <input type="radio" name="preg20" value="4"> Muchas veces <input type="radio" name="preg20" value="5"> Casi siempre o siempre</p> <br>
+<br>
+
+<input class="btnenv" type="submit" id="Enviar formulario" name="enviar datos" cursor= value="Enviar Datos" onclick="alert('Datos enviados correctamente');">
+</div>
+
+<br><br><br>
+
+
+
+</body>
+</html>
