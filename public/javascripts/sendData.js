@@ -6,7 +6,7 @@
     var edad=$("#edad").val();
     var sexo=$("#sexo").val();
     var ocupacion=$("#ocupacion").val();
-    var preg1=$("#preg1").val();
+    var preg1=$("input[name="preg1"]:checked").val();
 
 
     

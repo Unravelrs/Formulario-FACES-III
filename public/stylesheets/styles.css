@@ -51,8 +51,6 @@ height: 55px;
 width: 100%;
 background-color: #13322B;
 color: aliceblue;
-display: grid;
-grid-template-columns: 38% 62%;
 align-items: center;
 text-decoration: none;
 font-size: 16px;
