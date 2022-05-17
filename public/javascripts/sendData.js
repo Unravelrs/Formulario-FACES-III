@@ -26,13 +26,40 @@
     var preg18=$('input[name="preg18"]:checked').val();
     var preg19=$('input[name="preg19"]:checked').val();
     var preg20=$('input[name="preg20"]:checked').val();
-
+    var resparesclasif
+    var resnonesclasif
    
     var respares = ((parseInt(preg2)) + parseInt(preg4) + parseInt(preg6) + parseInt(preg8) + parseInt (preg10) + parseInt (preg12) + parseInt(preg14) + parseInt(preg16) + parseInt(preg18) + parseInt(preg20));
     var resnones = ((parseInt(preg1)) + parseInt(preg3) + parseInt(preg5) + parseInt(preg7) + parseInt(preg9) + parseInt(preg11) + parseInt(preg13) + parseInt(preg15) + parseInt(preg17) + parseInt(preg19));
     
+    if (respares <= 19)
+       resparesclasif = "Familia rígida"
+
+       else if (respares <= 24)
+        resparesclasif = "Familia estructurada"
+
+        else if (respares <= 28)
+        resparesclasif = "Familia flexible"
+
+        else if (respares <= 50)
+        resparesclasif = "Familia caótica"
+
+
+    if (resnones <= 34)
+       resnonesclasif = "Familia no relacionada"
+
+       else if (resnones <= 40)
+        resnonesclasif = "Familia semirelacionada"
+
+        else if (resnones <= 45)
+        resnonesclasif = "Familia relacionada"
+
+        else if (resnones <= 50)
+        resnonesclasif = "Familia aglutinada"
+
     
-    alert(nombre + " " + primerapellido + " " + segundoapellido + " " + NSS + " " + edad + " " + sexo + " " + ocupacion + " " + respares + " " + resnones);
+    
+    alert(nombre + " " + primerapellido + " " + segundoapellido + " " + NSS + " " + edad + " " + sexo + " " + ocupacion + " " + respares + " " + resnones + " " + resparesclasif + " " + resnonesclasif);
     $.ajax({
         method: "POST",
         url: "/sendData",
