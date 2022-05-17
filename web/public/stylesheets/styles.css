@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.imss {
+
+    font-size: 20px;
+}
+
+a:link {
+
+    color: aliceblue;
+
+}
+
+a:visited {
+
+    color: aliceblue;
+
+}
+
+a:visited {
+
+    color: aliceblue;
+
+}
+
+.header1 {
+
+background-color: #0C231E;
+padding-left: 12%;
+padding-right: 12%;
+height: 55px;
+width: 100%;
+
+}
+
+.header2 {
+
+padding-left: 12%;
+padding-right: 12%;
+padding-bottom: 3px;
+padding-top: 7px;
+height: 55px;
+width: 100%;
+background-color: #13322B;
+color: aliceblue;
+align-items: center;
+text-decoration: none;
+font-size: 16px;
+
+
+}
+
+
+
+.header2 .headernav  {
+
+grid-column: 2/3;
+list-style-type: none;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+
+
+}
+
+.titulo {
+
+    margin-left: 10%;
+    margin-top: 60px;
+    margin-right: 5%;
+
+}
+
+.formulario {
+
+margin-left: 10%;
+margin-top: 10px;
+
+}
+
+
+
+
+.datospaciente {
+
+    margin-top: 5%;
+    height: auto;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+
+}
+
+.datospaciente input, .datospaciente select {
+
+    width: 20rem;
+    height: 30px;
+    font-size: 14px;
+    line-height: inherit;
+    color: #555555;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.btnenv {
+
+    border: 2px solid #9D2449;
+    color: #9D2449;
+    background-color: #FFF;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 10px 25px;
+    cursor: pointer;
+
+
+}
