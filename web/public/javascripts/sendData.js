@@ -60,7 +60,7 @@ function processData() {
             " " +
             segundoapellido +
             " " +
-            NSS +
+            nss +
             " " +
             edad +
             " " +
@@ -100,7 +100,7 @@ function processData() {
 
  
  
- alert(nombre + " " + primerapellido + " " + segundoapellido + " " + NSS + " " + edad + " " + sexo + " " + ocupacion + " " + respares + " " + resnones + " " + resparesclasif + " " + resnonesclasif);
+ alert(nombre + " " + primerapellido + " " + segundoapellido + " " + nss + " " + edad + " " + sexo + " " + ocupacion + " " + respares + " " + resnones + " " + resparesclasif + " " + resnonesclasif);
 
     $.ajax({
         method: "POST",
