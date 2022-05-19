@@ -53,7 +53,7 @@ exports.find = async (method, url) => {
 
 
 exports.insert=async(data)=>{
-    o=await sql.query(`CALL formularioFACES.insertData(?,?,?,?,?,?,?,?,?)`, [data.apellido1,data.apellido2,data.edad,data.nombre,data.nss,data.ocupacion,data.resnones,data.respares,data.sexo])
+    o=await sql.query(`CALL formularioFACES.insertData(?,?,?,?,?,?,?,?,?,?,?)`, [data.apellido1,data.apellido2,data.edad,data.nombre,data.nss,data.ocupacion,data.resnones,data.respares,data.sexo,data.resparesclasif,data.resnonesclasif])
     return o;
 }
 /**

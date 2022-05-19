@@ -53,25 +53,6 @@ function processData() {
     var resnonesclasif="";
     
 
-    alert(
-        nombre +
-            " " +
-            primerapellido +
-            " " +
-            segundoapellido +
-            " " +
-            nss +
-            " " +
-            edad +
-            " " +
-            sexo +
-            " " +
-            ocupacion +
-            " " +
-            respares +
-            " " +
-            resnones
-    );
     
     if (respares <= 19)
     resparesclasif = "Familia rígida"
@@ -115,6 +96,8 @@ function processData() {
             ocupacion: ocupacion,
             respares: respares,
             resnones: resnones,
+            resnonesclasif: resnonesclasif,
+            resparesclasif: resparesclasif
         },
         cache: false,
         success: function (data) {
