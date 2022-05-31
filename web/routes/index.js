@@ -14,7 +14,7 @@ router.post('/sendData', async function(req, res, next) {
   try {
     let resp=await dac.response.insert(data)
 
-    res.json("Datos insertados correctamente");
+    res.json("Datos enviados correctamente");
   } catch (error) {
     res.json(error);
   }

@@ -38,6 +38,7 @@ function processData() {
         parseInt(preg16) +
         parseInt(preg18) +
         parseInt(preg20);
+
     var resnones =
         parseInt(preg1) +
         parseInt(preg3) +
@@ -49,9 +50,10 @@ function processData() {
         parseInt(preg15) +
         parseInt(preg17) +
         parseInt(preg19);
+
     var resparesclasif="";
     var resnonesclasif="";
-    
+    var funcionfam="";
 
     
     if (respares <= 19)
@@ -79,9 +81,30 @@ function processData() {
      else if (resnones <= 50)
      resnonesclasif = "Familia aglutinada"
 
+
+ if (resnones <=34 && respares <=19)
+    funcionfam = "Familia disfuncional"
+
+    else if (resnones >= 46 && respares >= 29)
+    funcionfam = "Familia disfuncional"
+
+    else if (resnones <=34 && respares >= 29)
+    funcionfam = "Familia disfuncional"
+
+    else if (resnones >= 46 && respares <=19)
+    funcionfam = "Familia disfuncional"
+
+    else if (resnones >= 35 && resnones <= 45 && respares >= 20 && respares <= 28)
+    funcionfam = "Familia funcional"
+
+    else funcionfam = "Familia medianamente funcional"
+
+
+
+    
+    
+
  
- 
- alert(nombre + " " + primerapellido + " " + segundoapellido + " " + nss + " " + edad + " " + sexo + " " + ocupacion + " " + respares + " " + resnones + " " + resparesclasif + " " + resnonesclasif);
 
     $.ajax({
         method: "POST",
@@ -97,7 +120,8 @@ function processData() {
             respares: respares,
             resnones: resnones,
             resnonesclasif: resnonesclasif,
-            resparesclasif: resparesclasif
+            resparesclasif: resparesclasif,
+            funcionfam: funcionfam
         },
         cache: false,
         success: function (data) {
